@@ -1,0 +1,41 @@
+{
+  "chain": {
+    "genesisPrevHash": "GENESIS"
+  },
+  "rows": [
+    {
+      "recordId": "HMS-1",
+      "sealedAt": "2026-01-01T00:00:00.000Z",
+      "decision": "hold",
+      "posture": "FLAT",
+      "note": "example",
+      "outcome": null,
+      "pnl": null,
+      "resolvedAt": null,
+      "prevHash": "GENESIS",
+      "rowHash": "5d251627765c49d96872533cca9de50cc58a2651329a83cf8849bf653c083c4b",
+      "resolutionHash": null,
+      "rowClass": "sealed",
+      "eventType": null,
+      "ref": null,
+      "hermesVersion": null
+    },
+    {
+      "recordId": "HMS-2",
+      "sealedAt": "2026-01-02T00:00:00.000Z",
+      "decision": "flatten",
+      "posture": "FLAT",
+      "note": "example",
+      "outcome": null,
+      "pnl": null,
+      "resolvedAt": null,
+      "prevHash": "5d251627765c49d96872533cca9de50cc58a2651329a83cf8849bf653c083c4b",
+      "rowHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "resolutionHash": null,
+      "rowClass": "sealed",
+      "eventType": null,
+      "ref": null,
+      "hermesVersion": null
+    }
+  ]
+}

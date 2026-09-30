@@ -1,0 +1,17 @@
+{
+  "name": "solace-verify",
+  "version": "1.0.0",
+  "description": "Independent verification of the Solace decision ledger.",
+  "type": "module",
+  "bin": {
+    "solace-verify": "./bin/verify.mjs"
+  },
+  "scripts": {
+    "verify": "node bin/verify.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
